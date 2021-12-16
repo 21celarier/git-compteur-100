@@ -1,4 +1,4 @@
-def compte():
-    r"""Compte de 1 à 100""""
-    for i in range(1, 100):
+def compte(n):
+    r"""Compte de 1 à n""""
+    for i in range(1, n + 1):
         print(i)
